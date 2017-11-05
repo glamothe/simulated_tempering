@@ -2,7 +2,7 @@
 This is a two-week Python project I worked on in 2016 during my master's degree. 
 The goal was to implement a new bioinformatics method found in the literature, 
 in this case, simulated tempering with on-the-fly weight determination 
-(Nguyen et al. 2013, J. Chem. Phys.)
+(Nguyen et al. 2013, J. Chem. Phys.).
 
 # Python Simulated Tempering -- Sep 2016
 
