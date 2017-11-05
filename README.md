@@ -1,13 +1,19 @@
 
 This is a two-week Python project I worked on in 2016 during my master's degree. 
 The goal was to implement a new bioinformatics method found in the literature, 
-in this case, simulated tempering with on-the-fly weight determination (Nguyen 2013). 
+in this case, simulated tempering with on-the-fly weight determination 
+(Nguyen et al. 2013, J. Chem. Phys.)
 
 # Python Simulated Tempering -- Sep 2016
 
 Author : Gilles LAMOTHE
 
-References : Nguyen 2013, Park 2007
+# References
+
+Nguyen et al. 2013, J. Chem. Phys., Communication: Simulated tempering with fast on-the-fly
+weight determination
+
+Park and Pande 2007, Phys. Rev. E, Choosing weights for simulated tempering
 
 # REQUIREMENTS
 
