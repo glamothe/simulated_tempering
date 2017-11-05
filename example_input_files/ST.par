@@ -1,0 +1,21 @@
+This is a simulated tempering (ST) parameters file. 
+Legend:
+--> temp_min : the base temperature of the simulation (K)
+--> temp_max : the peak temperature of the simulation (K)
+--> temp_interval : difference between two neighbouring temperatures
+--> steps_total : number of steps for entire ST (includes all MD runs)
+--> steps_md : number of steps for a signle MD run
+--> steps_trans : number of steps before we attempt a temperature transition
+--> steps_save : ST stats are saved everytime we run this many steps
+--> dt : time interval between two steps (ps)
+
+
+temp_min = 300
+temp_max = 500
+temp_interval = 4
+steps_total = 100000000 ; 200 ns
+steps_md = 2000 ; 40 ps
+steps_trans = 2000 ; 40 ps
+steps_save = 2000 ; 40 ps
+dt = 0.002 ; ps
+
